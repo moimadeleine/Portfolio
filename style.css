@@ -1,0 +1,381 @@
+body {
+	margin: 0;
+	font-family: 'Space Mono', monospace;
+}
+
+h1, h2, h3 {
+	line-height: 1;
+	margin: 0;
+	font-family: 'Radley', serif;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	color: #e30ab9;
+  	font-size: 24px;
+  	margin-top: 20px;
+}
+
+
+a {
+	color: #e30ab9;
+	transition: all 0.7s ease-in-out;
+
+}
+
+nav a {
+	color: #e30ab9;
+	transition: all 0.5s ease-in-out;
+}
+
+p {
+	text-transform: none;
+	font-weight: 200;
+	line-height: 160%;
+}
+
+a, a:hover {
+	text-decoration: none;
+
+}
+
+a:hover {
+	background: #e30ab9;
+	color: white;
+
+}
+
+nav {
+	position: fixed;
+  	z-index: 1;
+  	top: 0;
+  	
+
+}
+
+nav  {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav  {
+	font-size: 1.1em;
+	color: #e30ab9;
+	margin: 13px 12.5px 25px 12.5px;
+	display: inline-block;
+}
+
+nav:hover {
+	background: #e30ab9;
+	color: white;
+
+}
+
+nav .logo {
+	background: none;
+	color: black;
+}
+
+
+
+header h1 {
+	font-size: 6em;
+	color: black;
+	letter-spacing: 1px;
+	
+}
+
+
+
+header .tagline {
+	color: white;
+	text-transform: lowercase;
+	font-size: 30px;
+	font-weight: 400;
+	margin-top: 4em;
+}
+
+header {
+	height: 95vh;
+	background-image: url("img/baner.svg");
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	margin-bottom: 50px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+  	background-attachment: fixed;
+  	position: relative;
+  	overflow: hidden;
+}
+
+header p {
+	position: absolute;
+	bottom: 40px;
+  	font-size: 1.1em;
+	text-align: center;
+	bottom: 3em;
+	transform-origin: 0 0;
+	font-weight: bold;
+
+}
+
+header::before {
+	content: url("img/banner.png");
+	position: absolute;
+	z-index: -2;
+
+
+}
+
+
+
+.cytat p {
+	font-weight: bold;
+	color: white;
+	background: #e30ab9;
+	width: 20%;
+}
+
+.cytat h2 {
+  	font-size: 7em;
+	color: #e30ab9;
+	letter-spacing: 1px;
+	font-weight: 500;
+	
+}
+
+.cytat {
+	background-image: url("img/waves.svg");
+	text-align: center;
+	position: relative;
+	margin-bottom: 50px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+  	background-attachment: fixed;
+  
+  	overflow: hidden;
+  	
+}
+
+.cytat::before {
+	
+	position: absolute;
+	z-index: -1;	
+
+}
+
+
+
+.socialmedia {
+  position: fixed;
+  left: 0;
+  top: 30vh;
+  width: 40px;
+}
+
+.socialmedia a {
+	background: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+
+
+.mac::after{
+	content:'';
+	display:inline-block;
+	background: transparent url('img/mac.png') no-repeat;
+	width: 1em;
+	height: 1em;
+	background-size: Auto 1em;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+	vertical-align: sub;
+
+}
+/*
+.phone::after{
+	content:'';
+	display:inline-block;
+	background: transparent url('img/old_mobile.jpg') no-repeat;
+	width: 1em;
+	height: 1em;
+	line-height: 2;
+	background-size: Auto 1em;
+	
+}*/
+
+.serce::after{
+	content:'';
+	display:inline-block;
+	background: transparent url('img/heart.png') no-repeat;
+	width: 1em;
+	height: 1em;
+	background-size: Auto 1em;
+	vertical-align: sub;
+	
+}
+
+.nasa::after{
+	content:'';
+	display:inline-block;
+	background: transparent url('img/nasa.png') no-repeat;
+	width: 1em;
+	height: 1em;
+	background-size: Auto 1em;
+	vertical-align: sub;
+	
+}
+
+
+figcaption {
+	color: #e30ab9;
+}
+
+
+ul {
+	padding: 0;
+}
+
+
+footer {
+  background: black;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+footer p {
+	color: white;
+}
+
+span.highlighted {
+  background: #e30ab9;
+  color: white;
+  padding: 0 5px;
+}
+
+
+.luft {
+	padding-top: 3em;
+	padding-bottom: 4em;
+}
+
+
+.line {
+	margin-top: 5em;
+	margin-bottom: 5em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.list {
+	list-style: none;
+
+}
+
+.list li {
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
+	border-bottom: 1px solid lightgrey;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+
+.decorated {
+	padding-bottom: 0.7em;
+}
+
+
+.space-container {
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.work-space {
+	padding-bottom: 3em;
+}
+
+
+.obraz-link {
+	transform: rotate(5deg);
+	transition: all 0.7s ease-in-out;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait)  {
+   body {
+    font-size: 1em;
+      display: 100%;
+
+}
+
+header h1 {
+	font-size: 5em;
+}
+
+header a {
+	font-size: .9em;
+}
+
+header p {
+	font-size: .8em;
+}
+
+nav {
+	background: white;
+	padding-bottom: .5em;
+	padding-top: .5em;
+}
+
+
+.cytat  {
+	display: none;
+
+}
+
+
+.socialmedia {
+	display: none;
+}
+
+/*
+nav {
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
